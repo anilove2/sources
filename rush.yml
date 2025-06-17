@@ -1,0 +1,24 @@
+name: YouTubeAudio
+description: YouTube audio extension
+
+version:
+  number: auto
+  name: '1.0'
+
+authors:
+  - Mukesh
+
+build:
+  release:
+    optimize: true
+  desugar:
+    enable: false
+    desugar_deps: false
+
+assets:
+  icon: icon.png
+
+deps:
+  - io.github.shreyashsaitwal.rush:annotationsGPL:1.0.4
+  - com.squareup.okhttp3:okhttp:4.9.3
+  - com.github.TeamNewPipe:NewPipeExtractor:v0.23.3
